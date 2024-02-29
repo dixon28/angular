@@ -8,9 +8,8 @@
 >
 
 <shared-search-box 
-(onValue)="searchByCountry($event)"
-placeholder="Este es un nuevo placeholder"
-
+(onDebounce)="searchByCountry($event)"
+[initialValue]="initialValue"
 >
 </shared-search-box>
 </div>
